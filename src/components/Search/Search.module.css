@@ -1,0 +1,14 @@
+.input {
+  width: 40%;
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: 1px solid black;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.input:focus {
+  outline: none;
+}
+
+btn {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=Search.module.css.map */

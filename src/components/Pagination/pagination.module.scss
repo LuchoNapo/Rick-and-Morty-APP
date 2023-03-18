@@ -1,0 +1,35 @@
+
+.pag {
+  background-color: #1d2125;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  &:hover {
+    color: white;
+    background-color: #11181f7e;
+    border: none;
+  }
+
+  &:focus {
+    color: white;
+    background-color: #11181f7e;
+    box-shadow: inherit;
+  }
+
+  &:active {
+    background-color: #8d949c56;
+  }
+}
+
+.before {
+  background-color: #11181f;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+  a {
+    color: white;
+  }
+}
+

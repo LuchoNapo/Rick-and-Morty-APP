@@ -1,0 +1,20 @@
+.acordion {
+  &:not(.collapsed) {
+    background-color: #212529;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .5);
+  }
+  &:active {
+    background-color: black;
+  }
+  &:focus {
+    box-shadow: inherit;
+  }
+  &:not(.collapsed)::after{
+    filter: brightness(0%) invert(100%);
+    
+  }
+}
+
+.boton{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}

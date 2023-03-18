@@ -1,0 +1,17 @@
+.acordion:not(.collapsed) {
+  background-color: #212529;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.acordion:active {
+  background-color: black;
+}
+.acordion:focus {
+  box-shadow: inherit;
+}
+.acordion:not(.collapsed)::after {
+  filter: brightness(0%) invert(100%);
+}
+
+.boton {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=Filter.module.css.map */
