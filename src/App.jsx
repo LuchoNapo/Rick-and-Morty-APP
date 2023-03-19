@@ -1,7 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
-import {Spinner} from "reactstrap"
+
 import "./App.css";
+import "../node_modules/nprogress/nprogress.css";
 import { Filter } from "./components/Filter/Filter";
 import { Cards } from "./components/Cards/Cards";
 import { useState } from "react";
@@ -10,6 +11,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Pagination } from "./components/Pagination/Pagination";
 import { Search } from "./components/Search/Search";
 import { NavBar } from "./components/NavBar/Navbar";
+import Nprogress from "nprogress";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Episodes } from "./Pages/Episodes";
@@ -28,7 +30,6 @@ function App() {
 
         <Route path="/episodes" element={<Episodes />} />
         <Route path="/episodes/:id" element={<CardDetails />} />
-
         <Route path="/location" element={<Location />} />
         <Route path="/location/:id" element={<CardDetails />} />
       </Routes>
@@ -49,8 +50,10 @@ const Home = () => {
 
   useEffect(() => {
     (async function () {
+      Nprogress.start();
       const data = await fetch(api).then((res) => res.json());
       setFectchedData(data);
+      Nprogress.done();
     })();
   }, [api]);
 
