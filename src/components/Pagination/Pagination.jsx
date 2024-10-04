@@ -5,6 +5,8 @@ import styles from "./pagination.module.scss";
 export const Pagination = ({ info, page, setPage }) => {
   const [width, setWidth] = useState(window.innerWidth);
 
+  console.log(width);
+
   const updateDimension = () => {
     setWidth(window.innerWidth);
   };

@@ -9,8 +9,6 @@ export const CardDetails = () => {
   const { name, status, species, gender, episode, origin, type, image } =
     fetchedData;
 
-  console.log(fetchedData);
-
   useEffect(() => {
     (async function () {
       const data = await fetch(api).then((res) => res.json());

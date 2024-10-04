@@ -40,7 +40,7 @@ export const NavBar = () => {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav fs-5 gap-3">
-              <NavLink to={"/"} activeClassName="active" className="nav-link">
+              <NavLink to={"/"} activeclassname="active" className="nav-link">
                 Characters
               </NavLink>
               <NavLink to={"/episodes"} className="nav-link">

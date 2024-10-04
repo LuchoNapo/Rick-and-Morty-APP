@@ -28,7 +28,7 @@ export const FilterBTN = ({ name, index, items, task, setPage }) => {
           name={name}
           id={`${name}-${index}`}
         />
-        <label className={`${styles.boton} btn btn-outline-warning `} for={`${name}-${index}`}>
+        <label className={`${styles.boton} btn btn-outline-warning `} htmlFor={`${name}-${index}`}>
           {items}
         </label>
       </div>
