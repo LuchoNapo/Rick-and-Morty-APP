@@ -2,10 +2,12 @@
 Este es un proyecto que utiliza la API de Rick and Morty para mostrar información sobre los personajes, ubicaciones y episodios de la serie. La aplicación está construida en React y proporciona una interfaz amigable para explorar los detalles de esta popular serie de ciencia ficción.
 
 <h2> 🛠 Tecnologías utilizadas </h2> <br>
--React - Para la creación de la interfaz de usuario. <br>
--Axios - Para hacer las solicitudes HTTP a la API de Rick and Morty. <br>
--React Router - Para la navegación entre páginas. <br>
--CSS - Para el diseño y la maquetación. <br>
+<ul>
+  <li>React - Para la creación de la interfaz de usuario. </li>
+  <li>Axios - Para hacer las solicitudes HTTP a la API de Rick and Morty.</li>
+  <li>React Router - Para la navegación entre páginas.</li>
+  <li>CSS - Para el diseño y la maquetación.</li>
+</ul>
 <h2>🚀 Funcionalidades</h2>
 Ver una lista de personajes con información detallada sobre cada uno.
 Buscar personajes por nombre o especie.
