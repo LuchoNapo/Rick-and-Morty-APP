@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import { Episodes } from "./../../Pages/Episodes";
+import { Episodes } from "../../Pages/Episodes";
 
-export const NavBar = () => {
+export const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">

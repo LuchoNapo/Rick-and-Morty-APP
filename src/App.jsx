@@ -10,7 +10,7 @@ import { useEffect } from "react";
 import { Footer } from "./components/Footer/Footer";
 import { Pagination } from "./components/Pagination/Pagination";
 import { Search } from "./components/Search/Search";
-import { NavBar } from "./components/NavBar/Navbar";
+import { Navbar } from "./components/Navbar/Navbar.jsx";
 import Nprogress from "nprogress";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -22,7 +22,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar />
+        <Navbar />
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
