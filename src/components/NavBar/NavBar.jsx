@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import { Episodes } from "../../Pages/Episodes";
 
 export const Navbar = () => {
   return (
