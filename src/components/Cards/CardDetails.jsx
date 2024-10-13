@@ -15,7 +15,7 @@ export const CardDetails = () => {
       setFectchedData(data);
     })();
   }, [api]);
-  console.log(episode?.length);
+
 
   return (
     <div className="container d-flex justify-content-center">
