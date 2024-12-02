@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 
-export const Navbar = () => {
+const  Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
@@ -55,3 +55,4 @@ export const Navbar = () => {
     </div>
   );
 };
+export default Navbar;

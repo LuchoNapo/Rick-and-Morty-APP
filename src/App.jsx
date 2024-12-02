@@ -10,7 +10,7 @@ import { useEffect } from "react";
 import { Footer } from "./components/Footer/Footer";
 import { Pagination } from "./components/Pagination/Pagination";
 import { Search } from "./components/Search/Search";
-import { Navbar } from "./components/Navbar/Navbar.jsx";
+import Navbar from "./components/Navbar/Navbar";
 import Nprogress from "nprogress";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
