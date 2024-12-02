@@ -21,9 +21,9 @@ import { CardDetails } from "./components/Cards/CardDetails";
 function App() {
   return (
     <Router>
-      <div className="App">
+      {/* <div className="App">
         <Navbar />
-      </div>
+      </div> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:id" element={<CardDetails />} />
